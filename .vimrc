@@ -1,6 +1,11 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Farshid Rezaei .vimrc
+" last updated 11/11/2019
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 set nocompatible                        " choose no compatibility with legacy vi
 colorscheme  molokai                    " set colorscheme
-set termguicolors                       "vim will use full 24-bit colors
+set termguicolors                       " vim will use full 24-bit colors
 syntax enable                           " syntax highlighting
 filetype plugin indent on               " load filetype-specific plugin and indent files
 set expandtab							" tabs are spaces
