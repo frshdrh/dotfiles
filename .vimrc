@@ -1,8 +1,3 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Farshid Rezaei .vimrc
-" last updated 11/11/2019
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 set nocompatible                        " choose no compatibility with legacy vi
 colorscheme  molokai                    " set colorscheme
 set termguicolors                       " vim will use full 24-bit colors
@@ -24,6 +19,8 @@ set foldenable                          " enable folding
 set foldmethod=manual                   " Set folding method
 set backspace=indent,eol,start          " make backspaces more powerfull
 set history=1000
+set exrc                                " forces Vim to source .vimrc file if it present in working directory
+set secure                              " restrict usage of some commands in non-default .vimrc files
 
 " auto complete for ( { [ " ' ` 
 "":inoremap    (   ()<Left>
